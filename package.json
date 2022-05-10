@@ -52,6 +52,7 @@
     "flatted": "^3.2.5",
     "fs.realpath": "^1.0.0",
     "functional-red-black-tree": "^1.0.1",
+    "gh-pages": "^3.2.3",
     "glob": "^7.2.0",
     "glob-parent": "^6.0.2",
     "globals": "^13.13.0",
@@ -100,7 +101,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "dev": "webpack --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
