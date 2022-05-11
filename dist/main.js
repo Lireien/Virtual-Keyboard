@@ -16,12 +16,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Raleway-Regular.ttf */ "./src/assets/fonts/Raleway-Regular.ttf"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* * {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nhtml {\r\n  scroll-behavior: smooth;\r\n  overflow-x: hidden;\r\n}\r\nbody {\r\n  min-height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\ntextarea {\r\n  position: absolute;\r\n  min-width: 320px;\r\n  width: 40%;\r\n  top: 100px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard {\r\n  position: fixed;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  padding: 5px 0;\r\n  background-color: lightslategrey;\r\n  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);\r\n  user-select: none;\r\n  transition: bottom 0.5s;\r\n}\r\n\r\n.keyboard--hidden {\r\n  bottom: -100%;\r\n}\r\n.keyboard__keys {\r\n  text-align: center;\r\n}\r\n.keyboard__key {\r\n  height: 45px;\r\n  width: 6%;\r\n  max-width: 90px;\r\n  margin: 3px;\r\n  border-radius: 4px;\r\n  border: none;\r\n  background: darkslategrey;\r\n  color: antiquewhite;\r\n  font-size: 1.05rem;\r\n  outline: none;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  vertical-align: top;\r\n  padding: 0;\r\n  position: relative;\r\n}\r\n.arrows {\r\n  max-width: 50%;\r\n  max-height: 80%;\r\n}\r\n\r\n.keyboard__key:active {\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n..keyboard__key--big {\r\n  width: 8%;\r\n}\r\n.keyboard__key--wide {\r\n  width: 10%;\r\n}\r\n.keyboard__key--widely {\r\n  width: 12%;\r\n}\r\n.keyboard__key--extra-wide {\r\n  width: 36%;\r\n  max-width: 500px;\r\n}\r\n.keyboard__key--activatable::after {\r\n  content: '';\r\n  top: 6px;\r\n  left: 6px;\r\n  position: absolute;\r\n  width: 7px;\r\n  height: 7px;\r\n  border-radius: 50%;\r\n  background: rgba(255, 255, 255, 0.3);\r\n}\r\n.keyboard__key--active::after {\r\n  background: #ffffff;\r\n} */\r\n\r\n@charset \"UTF-8\";\r\n/*Обнуление*/\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n*,\r\n*:before,\r\n*:after {\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n}\r\n\r\n:focus,\r\n:active {\r\n  outline: none;\r\n}\r\n\r\na:focus,\r\na:active {\r\n  outline: none;\r\n}\r\n\r\nnav,\r\nfooter,\r\nheader,\r\naside {\r\n  display: block;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  line-height: 1;\r\n  font-size: 14px;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea {\r\n  font-family: inherit;\r\n}\r\n\r\ninput::-ms-clear {\r\n  display: none;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n}\r\n\r\nbutton::-moz-focus-inner {\r\n  padding: 0;\r\n  border: 0;\r\n}\r\n\r\na,\r\na:visited {\r\n  text-decoration: none;\r\n}\r\n\r\na:hover {\r\n  text-decoration: none;\r\n}\r\n\r\nul li {\r\n  list-style: none;\r\n}\r\n\r\nimg {\r\n  vertical-align: top;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-size: inherit;\r\n  font-weight: 400;\r\n}\r\n\r\nbody {\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.wrapper {\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n/* \r\n[class*='__container'] {\r\n  max-width: 1200px;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n} */\r\n\r\n.keyboard__container {\r\n  max-width: 1200px;\r\n  height: 100%;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.title {\r\n  font-size: 3rem;\r\n  padding: 20px;\r\n}\r\n\r\n.keyboard__output {\r\n  width: 90%;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  border-radius: 10px;\r\n  font-size: 1.2rem;\r\n  padding: 15px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard__keys {\r\n  margin-top: 20px;\r\n  padding: 20px;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  background: darkslategray;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.keyboard__row {\r\n  display: flex;\r\n}\r\n\r\n.key {\r\n  height: 45px;\r\n  width: 45px;\r\n  border: 1px solid rgb(151, 12, 12);\r\n  border-radius: 4px;\r\n  margin: 5px;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 1.2rem;\r\n  font-weight: bold;\r\n  color: white;\r\n  background: rgba(26, 23, 23, 0.9);\r\n}\r\n.key:hover {\r\n  color: rgba(0, 0, 0, 0.9);\r\n  background: rgba(255, 255, 255, 0.9);\r\n  transition: all 0.5s ease-out;\r\n}\r\n.key.active {\r\n  background: rgb(0, 255, 0);\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\n.key__wide {\r\n  width: 100px;\r\n}\r\n\r\n.key__extra-wide {\r\n  width: 375px;\r\n}\r\n\r\n.keyboard__description {\r\n  margin-top: 20px;\r\n}\r\n.keyboard__description p {\r\n  padding: 10px 0;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAmGG;;AAEH,gBAAgB;AAChB,YAAY;AACZ;EACE,UAAU;EACV,SAAS;EACT,SAAS;AACX;;AAEA;;;EAGE,2BAA2B;EAC3B,8BAA8B;EAC9B,sBAAsB;AACxB;;AAEA;;EAEE,aAAa;AACf;;AAEA;;EAEE,aAAa;AACf;;AAEA;;;;EAIE,cAAc;AAChB;;AAEA;;EAEE,YAAY;EACZ,WAAW;EACX,eAAe;EACf,cAAc;EACd,eAAe;AACjB;;AAEA;;;EAGE,oBAAoB;AACtB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,UAAU;EACV,SAAS;AACX;;AAEA;;EAEE,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;;;;;;EAME,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,iCAAiC;AACnC;;AAEA;EACE,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;AACA;;;;;GAKG;;AAEH;EACE,iBAAiB;EACjB,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,aAAa;AACf;;AAEA;EACE,UAAU;EACV,oCAAoC;EACpC,mBAAmB;EACnB,iBAAiB;EACjB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,oCAAoC;EACpC,yBAAyB;EACzB,kBAAkB;EAClB,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,kCAAkC;EAClC,kBAAkB;EAClB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,mBAAmB;EACnB,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,iCAAiC;AACnC;AACA;EACE,yBAAyB;EACzB,oCAAoC;EACpC,6BAA6B;AAC/B;AACA;EACE,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;AAClB;AACA;EACE,eAAe;AACjB","sourcesContent":["/* * {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nhtml {\r\n  scroll-behavior: smooth;\r\n  overflow-x: hidden;\r\n}\r\nbody {\r\n  min-height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\ntextarea {\r\n  position: absolute;\r\n  min-width: 320px;\r\n  width: 40%;\r\n  top: 100px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard {\r\n  position: fixed;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  padding: 5px 0;\r\n  background-color: lightslategrey;\r\n  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);\r\n  user-select: none;\r\n  transition: bottom 0.5s;\r\n}\r\n\r\n.keyboard--hidden {\r\n  bottom: -100%;\r\n}\r\n.keyboard__keys {\r\n  text-align: center;\r\n}\r\n.keyboard__key {\r\n  height: 45px;\r\n  width: 6%;\r\n  max-width: 90px;\r\n  margin: 3px;\r\n  border-radius: 4px;\r\n  border: none;\r\n  background: darkslategrey;\r\n  color: antiquewhite;\r\n  font-size: 1.05rem;\r\n  outline: none;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  vertical-align: top;\r\n  padding: 0;\r\n  position: relative;\r\n}\r\n.arrows {\r\n  max-width: 50%;\r\n  max-height: 80%;\r\n}\r\n\r\n.keyboard__key:active {\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n..keyboard__key--big {\r\n  width: 8%;\r\n}\r\n.keyboard__key--wide {\r\n  width: 10%;\r\n}\r\n.keyboard__key--widely {\r\n  width: 12%;\r\n}\r\n.keyboard__key--extra-wide {\r\n  width: 36%;\r\n  max-width: 500px;\r\n}\r\n.keyboard__key--activatable::after {\r\n  content: '';\r\n  top: 6px;\r\n  left: 6px;\r\n  position: absolute;\r\n  width: 7px;\r\n  height: 7px;\r\n  border-radius: 50%;\r\n  background: rgba(255, 255, 255, 0.3);\r\n}\r\n.keyboard__key--active::after {\r\n  background: #ffffff;\r\n} */\r\n\r\n@charset \"UTF-8\";\r\n/*Обнуление*/\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n*,\r\n*:before,\r\n*:after {\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n}\r\n\r\n:focus,\r\n:active {\r\n  outline: none;\r\n}\r\n\r\na:focus,\r\na:active {\r\n  outline: none;\r\n}\r\n\r\nnav,\r\nfooter,\r\nheader,\r\naside {\r\n  display: block;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  line-height: 1;\r\n  font-size: 14px;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea {\r\n  font-family: inherit;\r\n}\r\n\r\ninput::-ms-clear {\r\n  display: none;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n}\r\n\r\nbutton::-moz-focus-inner {\r\n  padding: 0;\r\n  border: 0;\r\n}\r\n\r\na,\r\na:visited {\r\n  text-decoration: none;\r\n}\r\n\r\na:hover {\r\n  text-decoration: none;\r\n}\r\n\r\nul li {\r\n  list-style: none;\r\n}\r\n\r\nimg {\r\n  vertical-align: top;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-size: inherit;\r\n  font-weight: 400;\r\n}\r\n\r\nbody {\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.wrapper {\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n/* \r\n[class*='__container'] {\r\n  max-width: 1200px;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n} */\r\n\r\n.keyboard__container {\r\n  max-width: 1200px;\r\n  height: 100%;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.title {\r\n  font-size: 3rem;\r\n  padding: 20px;\r\n}\r\n\r\n.keyboard__output {\r\n  width: 90%;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  border-radius: 10px;\r\n  font-size: 1.2rem;\r\n  padding: 15px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard__keys {\r\n  margin-top: 20px;\r\n  padding: 20px;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  background: darkslategray;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.keyboard__row {\r\n  display: flex;\r\n}\r\n\r\n.key {\r\n  height: 45px;\r\n  width: 45px;\r\n  border: 1px solid rgb(151, 12, 12);\r\n  border-radius: 4px;\r\n  margin: 5px;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 1.2rem;\r\n  font-weight: bold;\r\n  color: white;\r\n  background: rgba(26, 23, 23, 0.9);\r\n}\r\n.key:hover {\r\n  color: rgba(0, 0, 0, 0.9);\r\n  background: rgba(255, 255, 255, 0.9);\r\n  transition: all 0.5s ease-out;\r\n}\r\n.key.active {\r\n  background: rgb(0, 255, 0);\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\n.key__wide {\r\n  width: 100px;\r\n}\r\n\r\n.key__extra-wide {\r\n  width: 375px;\r\n}\r\n\r\n.keyboard__description {\r\n  margin-top: 20px;\r\n}\r\n.keyboard__description p {\r\n  padding: 10px 0;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n  font-family: 'Raleway', sans-serif;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('truetype');\r\n}\r\n\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n*,\r\n*:before,\r\n*:after {\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n}\r\n\r\n:focus,\r\n:active {\r\n  outline: none;\r\n}\r\n\r\na:focus,\r\na:active {\r\n  outline: none;\r\n}\r\n\r\nnav,\r\nfooter,\r\nheader,\r\naside {\r\n  display: block;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  line-height: 1;\r\n  font-size: 14px;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea {\r\n  font-family: inherit;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n}\r\n\r\nli {\r\n  list-style: none;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: inherit;\r\n  font-weight: 400;\r\n}\r\n\r\n.wrapper {\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background: linear-gradient(\r\n    to bottom right,\r\n    rgb(37, 1, 1),\r\n    rgb(252, 134, 154)\r\n  );\r\n}\r\n\r\n.keyboard__container {\r\n  max-width: 1200px;\r\n  height: 100%;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.title {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 3rem;\r\n  padding: 20px;\r\n  font-weight: 700;\r\n  line-height: 110%;\r\n  letter-spacing: 5px;\r\n}\r\n\r\n.keyboard__output {\r\n  width: 90%;\r\n  border: 2px solid #000;\r\n  border-radius: 10px;\r\n  font-size: 1.2rem;\r\n  padding: 15px;\r\n  resize: none;\r\n}\r\n.keyboard__output:focus {\r\n  border: 2px solid rgb(180, 8, 8);\r\n}\r\n\r\n.keyboard__keys {\r\n  margin-top: 20px;\r\n  padding: 20px;\r\n  border: 2px solid #000000;\r\n  background: darkslategray;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.keyboard__row {\r\n  display: flex;\r\n}\r\n\r\n.key {\r\n  height: 45px;\r\n  width: 45px;\r\n  border: 2px solid rgb(151, 12, 12);\r\n  border-radius: 4px;\r\n  margin: 5px;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 1.2rem;\r\n  font-weight: bold;\r\n  color: white;\r\n  background: rgba(26, 23, 23, 0.9);\r\n}\r\n.key:hover {\r\n  color: #fff;\r\n  background: rgb(134, 32, 32, 0.7);\r\n  transition: all 0.5s ease-out;\r\n}\r\n.key.active {\r\n  background: rgb(134, 32, 32);\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\n.key__wide {\r\n  width: 100px;\r\n}\r\n\r\n.key__extra-wide {\r\n  width: 350px;\r\n}\r\n\r\n.keyboard__description {\r\n  margin-top: 20px;\r\n}\r\n.keyboard__description p {\r\n  font-family: 'Raleway', sans-serif;\r\n  color: peachpuff;\r\n  padding: 10px 0;\r\n  letter-spacing: 2px;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,kCAAkC;EAClC,+DAAkE;AACpE;;AAEA;EACE,UAAU;EACV,SAAS;EACT,SAAS;AACX;;AAEA;;;EAGE,2BAA2B;EAC3B,8BAA8B;EAC9B,sBAAsB;AACxB;;AAEA;;EAEE,aAAa;AACf;;AAEA;;EAEE,aAAa;AACf;;AAEA;;;;EAIE,cAAc;AAChB;;AAEA;;EAEE,YAAY;EACZ,WAAW;EACX,eAAe;EACf,cAAc;EACd,eAAe;AACjB;;AAEA;;;EAGE,oBAAoB;AACtB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;;;;;;EAME,kCAAkC;EAClC,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB;;;;GAIC;AACH;;AAEA;EACE,iBAAiB;EACjB,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,kCAAkC;EAClC,eAAe;EACf,aAAa;EACb,gBAAgB;EAChB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,UAAU;EACV,sBAAsB;EACtB,mBAAmB;EACnB,iBAAiB;EACjB,aAAa;EACb,YAAY;AACd;AACA;EACE,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,yBAAyB;EACzB,yBAAyB;EACzB,kBAAkB;EAClB,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,kCAAkC;EAClC,kBAAkB;EAClB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,mBAAmB;EACnB,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,iCAAiC;AACnC;AACA;EACE,WAAW;EACX,iCAAiC;EACjC,6BAA6B;AAC/B;AACA;EACE,4BAA4B;EAC5B,6BAA6B;AAC/B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;AAClB;AACA;EACE,kCAAkC;EAClC,gBAAgB;EAChB,eAAe;EACf,mBAAmB;AACrB","sourcesContent":["@font-face {\r\n  font-family: 'Raleway', sans-serif;\r\n  src: url('../assets/fonts/Raleway-Regular.ttf') format('truetype');\r\n}\r\n\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n*,\r\n*:before,\r\n*:after {\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n}\r\n\r\n:focus,\r\n:active {\r\n  outline: none;\r\n}\r\n\r\na:focus,\r\na:active {\r\n  outline: none;\r\n}\r\n\r\nnav,\r\nfooter,\r\nheader,\r\naside {\r\n  display: block;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  line-height: 1;\r\n  font-size: 14px;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea {\r\n  font-family: inherit;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n}\r\n\r\nli {\r\n  list-style: none;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: inherit;\r\n  font-weight: 400;\r\n}\r\n\r\n.wrapper {\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background: linear-gradient(\r\n    to bottom right,\r\n    rgb(37, 1, 1),\r\n    rgb(252, 134, 154)\r\n  );\r\n}\r\n\r\n.keyboard__container {\r\n  max-width: 1200px;\r\n  height: 100%;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.title {\r\n  font-family: 'Raleway', sans-serif;\r\n  font-size: 3rem;\r\n  padding: 20px;\r\n  font-weight: 700;\r\n  line-height: 110%;\r\n  letter-spacing: 5px;\r\n}\r\n\r\n.keyboard__output {\r\n  width: 90%;\r\n  border: 2px solid #000;\r\n  border-radius: 10px;\r\n  font-size: 1.2rem;\r\n  padding: 15px;\r\n  resize: none;\r\n}\r\n.keyboard__output:focus {\r\n  border: 2px solid rgb(180, 8, 8);\r\n}\r\n\r\n.keyboard__keys {\r\n  margin-top: 20px;\r\n  padding: 20px;\r\n  border: 2px solid #000000;\r\n  background: darkslategray;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.keyboard__row {\r\n  display: flex;\r\n}\r\n\r\n.key {\r\n  height: 45px;\r\n  width: 45px;\r\n  border: 2px solid rgb(151, 12, 12);\r\n  border-radius: 4px;\r\n  margin: 5px;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 1.2rem;\r\n  font-weight: bold;\r\n  color: white;\r\n  background: rgba(26, 23, 23, 0.9);\r\n}\r\n.key:hover {\r\n  color: #fff;\r\n  background: rgb(134, 32, 32, 0.7);\r\n  transition: all 0.5s ease-out;\r\n}\r\n.key.active {\r\n  background: rgb(134, 32, 32);\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\n.key__wide {\r\n  width: 100px;\r\n}\r\n\r\n.key__extra-wide {\r\n  width: 350px;\r\n}\r\n\r\n.keyboard__description {\r\n  margin-top: 20px;\r\n}\r\n.keyboard__description p {\r\n  font-family: 'Raleway', sans-serif;\r\n  color: peachpuff;\r\n  padding: 10px 0;\r\n  letter-spacing: 2px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -135,6 +140,44 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -756,6 +799,16 @@ function keyboardRender() {
   });
 }
 
+/***/ }),
+
+/***/ "./src/assets/fonts/Raleway-Regular.ttf":
+/*!**********************************************!*\
+  !*** ./src/assets/fonts/Raleway-Regular.ttf ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e59eab8a89ae5a53a580.ttf";
+
 /***/ })
 
 /******/ 	});
@@ -784,6 +837,9 @@ function keyboardRender() {
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -809,6 +865,18 @@ function keyboardRender() {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -823,6 +891,52 @@ function keyboardRender() {
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/
