@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nhtml {\r\n  scroll-behavior: smooth;\r\n  overflow-x: hidden;\r\n}\r\nbody {\r\n  min-height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\ntextarea {\r\n  position: absolute;\r\n  min-width: 320px;\r\n  width: 40%;\r\n  top: 100px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard {\r\n  position: fixed;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  padding: 5px 0;\r\n  background-color: lightslategrey;\r\n  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);\r\n  user-select: none;\r\n  transition: bottom 0.5s;\r\n}\r\n\r\n.keyboard--hidden {\r\n  bottom: -100%;\r\n}\r\n.keyboard__keys {\r\n  text-align: center;\r\n}\r\n.keyboard__key {\r\n  height: 45px;\r\n  width: 6%;\r\n  max-width: 90px;\r\n  margin: 3px;\r\n  border-radius: 4px;\r\n  border: none;\r\n  background: darkslategrey;\r\n  color: antiquewhite;\r\n  font-size: 1.05rem;\r\n  outline: none;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  vertical-align: top;\r\n  padding: 0;\r\n  position: relative;\r\n}\r\n.arrows {\r\n  max-width: 50%;\r\n  max-height: 80%;\r\n}\r\n\r\n.keyboard__key:active {\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n..keyboard__key--big {\r\n  width: 8%;\r\n}\r\n.keyboard__key--wide {\r\n  width: 10%;\r\n}\r\n.keyboard__key--widely {\r\n  width: 12%;\r\n}\r\n.keyboard__key--extra-wide {\r\n  width: 36%;\r\n  max-width: 500px;\r\n}\r\n.keyboard__key--activatable::after {\r\n  content: '';\r\n  top: 6px;\r\n  left: 6px;\r\n  position: absolute;\r\n  width: 7px;\r\n  height: 7px;\r\n  border-radius: 50%;\r\n  background: rgba(255, 255, 255, 0.3);\r\n}\r\n.keyboard__key--active::after {\r\n  background: #ffffff;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;AACA;EACE,uBAAuB;EACvB,kBAAkB;AACpB;AACA;EACE,iBAAiB;EACjB,SAAS;EACT,UAAU;AACZ;AACA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;AACA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,UAAU;EACV,UAAU;EACV,YAAY;AACd;;AAEA;EACE,eAAe;EACf,OAAO;EACP,SAAS;EACT,WAAW;EACX,cAAc;EACd,gCAAgC;EAChC,wCAAwC;EACxC,iBAAiB;EACjB,uBAAuB;AACzB;;AAEA;EACE,aAAa;AACf;AACA;EACE,kBAAkB;AACpB;AACA;EACE,YAAY;EACZ,SAAS;EACT,eAAe;EACf,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,kBAAkB;EAClB,aAAa;EACb,eAAe;EACf,oBAAoB;EACpB,mBAAmB;EACnB,uBAAuB;EACvB,mBAAmB;EACnB,UAAU;EACV,kBAAkB;AACpB;AACA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,oCAAoC;AACtC;AACA;EACE,SAAS;AACX;AACA;EACE,UAAU;AACZ;AACA;EACE,UAAU;AACZ;AACA;EACE,UAAU;EACV,gBAAgB;AAClB;AACA;EACE,WAAW;EACX,QAAQ;EACR,SAAS;EACT,kBAAkB;EAClB,UAAU;EACV,WAAW;EACX,kBAAkB;EAClB,oCAAoC;AACtC;AACA;EACE,mBAAmB;AACrB","sourcesContent":["* {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nhtml {\r\n  scroll-behavior: smooth;\r\n  overflow-x: hidden;\r\n}\r\nbody {\r\n  min-height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\ntextarea {\r\n  position: absolute;\r\n  min-width: 320px;\r\n  width: 40%;\r\n  top: 100px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard {\r\n  position: fixed;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  padding: 5px 0;\r\n  background-color: lightslategrey;\r\n  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);\r\n  user-select: none;\r\n  transition: bottom 0.5s;\r\n}\r\n\r\n.keyboard--hidden {\r\n  bottom: -100%;\r\n}\r\n.keyboard__keys {\r\n  text-align: center;\r\n}\r\n.keyboard__key {\r\n  height: 45px;\r\n  width: 6%;\r\n  max-width: 90px;\r\n  margin: 3px;\r\n  border-radius: 4px;\r\n  border: none;\r\n  background: darkslategrey;\r\n  color: antiquewhite;\r\n  font-size: 1.05rem;\r\n  outline: none;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  vertical-align: top;\r\n  padding: 0;\r\n  position: relative;\r\n}\r\n.arrows {\r\n  max-width: 50%;\r\n  max-height: 80%;\r\n}\r\n\r\n.keyboard__key:active {\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n..keyboard__key--big {\r\n  width: 8%;\r\n}\r\n.keyboard__key--wide {\r\n  width: 10%;\r\n}\r\n.keyboard__key--widely {\r\n  width: 12%;\r\n}\r\n.keyboard__key--extra-wide {\r\n  width: 36%;\r\n  max-width: 500px;\r\n}\r\n.keyboard__key--activatable::after {\r\n  content: '';\r\n  top: 6px;\r\n  left: 6px;\r\n  position: absolute;\r\n  width: 7px;\r\n  height: 7px;\r\n  border-radius: 50%;\r\n  background: rgba(255, 255, 255, 0.3);\r\n}\r\n.keyboard__key--active::after {\r\n  background: #ffffff;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* * {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nhtml {\r\n  scroll-behavior: smooth;\r\n  overflow-x: hidden;\r\n}\r\nbody {\r\n  min-height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\ntextarea {\r\n  position: absolute;\r\n  min-width: 320px;\r\n  width: 40%;\r\n  top: 100px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard {\r\n  position: fixed;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  padding: 5px 0;\r\n  background-color: lightslategrey;\r\n  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);\r\n  user-select: none;\r\n  transition: bottom 0.5s;\r\n}\r\n\r\n.keyboard--hidden {\r\n  bottom: -100%;\r\n}\r\n.keyboard__keys {\r\n  text-align: center;\r\n}\r\n.keyboard__key {\r\n  height: 45px;\r\n  width: 6%;\r\n  max-width: 90px;\r\n  margin: 3px;\r\n  border-radius: 4px;\r\n  border: none;\r\n  background: darkslategrey;\r\n  color: antiquewhite;\r\n  font-size: 1.05rem;\r\n  outline: none;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  vertical-align: top;\r\n  padding: 0;\r\n  position: relative;\r\n}\r\n.arrows {\r\n  max-width: 50%;\r\n  max-height: 80%;\r\n}\r\n\r\n.keyboard__key:active {\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n..keyboard__key--big {\r\n  width: 8%;\r\n}\r\n.keyboard__key--wide {\r\n  width: 10%;\r\n}\r\n.keyboard__key--widely {\r\n  width: 12%;\r\n}\r\n.keyboard__key--extra-wide {\r\n  width: 36%;\r\n  max-width: 500px;\r\n}\r\n.keyboard__key--activatable::after {\r\n  content: '';\r\n  top: 6px;\r\n  left: 6px;\r\n  position: absolute;\r\n  width: 7px;\r\n  height: 7px;\r\n  border-radius: 50%;\r\n  background: rgba(255, 255, 255, 0.3);\r\n}\r\n.keyboard__key--active::after {\r\n  background: #ffffff;\r\n} */\r\n\r\n@charset \"UTF-8\";\r\n/*Обнуление*/\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n*,\r\n*:before,\r\n*:after {\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n}\r\n\r\n:focus,\r\n:active {\r\n  outline: none;\r\n}\r\n\r\na:focus,\r\na:active {\r\n  outline: none;\r\n}\r\n\r\nnav,\r\nfooter,\r\nheader,\r\naside {\r\n  display: block;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  line-height: 1;\r\n  font-size: 14px;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea {\r\n  font-family: inherit;\r\n}\r\n\r\ninput::-ms-clear {\r\n  display: none;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n}\r\n\r\nbutton::-moz-focus-inner {\r\n  padding: 0;\r\n  border: 0;\r\n}\r\n\r\na,\r\na:visited {\r\n  text-decoration: none;\r\n}\r\n\r\na:hover {\r\n  text-decoration: none;\r\n}\r\n\r\nul li {\r\n  list-style: none;\r\n}\r\n\r\nimg {\r\n  vertical-align: top;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-size: inherit;\r\n  font-weight: 400;\r\n}\r\n\r\nbody {\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.wrapper {\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n/* \r\n[class*='__container'] {\r\n  max-width: 1200px;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n} */\r\n\r\n.keyboard__container {\r\n  max-width: 1200px;\r\n  height: 100%;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.title {\r\n  font-size: 3rem;\r\n  padding: 20px;\r\n}\r\n\r\n.keyboard__output {\r\n  width: 90%;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  border-radius: 10px;\r\n  font-size: 1.2rem;\r\n  padding: 15px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard__keys {\r\n  margin-top: 20px;\r\n  padding: 20px;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  background: darkslategray;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.keyboard__row {\r\n  display: flex;\r\n}\r\n\r\n.key {\r\n  height: 45px;\r\n  width: 45px;\r\n  border: 1px solid rgb(151, 12, 12);\r\n  border-radius: 4px;\r\n  margin: 5px;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 1.2rem;\r\n  font-weight: bold;\r\n  color: white;\r\n  background: rgba(26, 23, 23, 0.9);\r\n}\r\n.key:hover {\r\n  color: rgba(0, 0, 0, 0.9);\r\n  background: rgba(255, 255, 255, 0.9);\r\n  transition: all 0.5s ease-out;\r\n}\r\n.key.active {\r\n  background: rgb(0, 255, 0);\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\n.key__wide {\r\n  width: 100px;\r\n}\r\n\r\n.key__extra-wide {\r\n  width: 375px;\r\n}\r\n\r\n.keyboard__description {\r\n  margin-top: 20px;\r\n}\r\n.keyboard__description p {\r\n  padding: 10px 0;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAmGG;;AAEH,gBAAgB;AAChB,YAAY;AACZ;EACE,UAAU;EACV,SAAS;EACT,SAAS;AACX;;AAEA;;;EAGE,2BAA2B;EAC3B,8BAA8B;EAC9B,sBAAsB;AACxB;;AAEA;;EAEE,aAAa;AACf;;AAEA;;EAEE,aAAa;AACf;;AAEA;;;;EAIE,cAAc;AAChB;;AAEA;;EAEE,YAAY;EACZ,WAAW;EACX,eAAe;EACf,cAAc;EACd,eAAe;AACjB;;AAEA;;;EAGE,oBAAoB;AACtB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,UAAU;EACV,SAAS;AACX;;AAEA;;EAEE,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;;;;;;EAME,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,iCAAiC;AACnC;;AAEA;EACE,iBAAiB;EACjB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;AACA;;;;;GAKG;;AAEH;EACE,iBAAiB;EACjB,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,aAAa;AACf;;AAEA;EACE,UAAU;EACV,oCAAoC;EACpC,mBAAmB;EACnB,iBAAiB;EACjB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,oCAAoC;EACpC,yBAAyB;EACzB,kBAAkB;EAClB,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,kCAAkC;EAClC,kBAAkB;EAClB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,mBAAmB;EACnB,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,iCAAiC;AACnC;AACA;EACE,yBAAyB;EACzB,oCAAoC;EACpC,6BAA6B;AAC/B;AACA;EACE,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;AAClB;AACA;EACE,eAAe;AACjB","sourcesContent":["/* * {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nhtml {\r\n  scroll-behavior: smooth;\r\n  overflow-x: hidden;\r\n}\r\nbody {\r\n  min-height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\ntextarea {\r\n  position: absolute;\r\n  min-width: 320px;\r\n  width: 40%;\r\n  top: 100px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard {\r\n  position: fixed;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 100%;\r\n  padding: 5px 0;\r\n  background-color: lightslategrey;\r\n  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);\r\n  user-select: none;\r\n  transition: bottom 0.5s;\r\n}\r\n\r\n.keyboard--hidden {\r\n  bottom: -100%;\r\n}\r\n.keyboard__keys {\r\n  text-align: center;\r\n}\r\n.keyboard__key {\r\n  height: 45px;\r\n  width: 6%;\r\n  max-width: 90px;\r\n  margin: 3px;\r\n  border-radius: 4px;\r\n  border: none;\r\n  background: darkslategrey;\r\n  color: antiquewhite;\r\n  font-size: 1.05rem;\r\n  outline: none;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  vertical-align: top;\r\n  padding: 0;\r\n  position: relative;\r\n}\r\n.arrows {\r\n  max-width: 50%;\r\n  max-height: 80%;\r\n}\r\n\r\n.keyboard__key:active {\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n..keyboard__key--big {\r\n  width: 8%;\r\n}\r\n.keyboard__key--wide {\r\n  width: 10%;\r\n}\r\n.keyboard__key--widely {\r\n  width: 12%;\r\n}\r\n.keyboard__key--extra-wide {\r\n  width: 36%;\r\n  max-width: 500px;\r\n}\r\n.keyboard__key--activatable::after {\r\n  content: '';\r\n  top: 6px;\r\n  left: 6px;\r\n  position: absolute;\r\n  width: 7px;\r\n  height: 7px;\r\n  border-radius: 50%;\r\n  background: rgba(255, 255, 255, 0.3);\r\n}\r\n.keyboard__key--active::after {\r\n  background: #ffffff;\r\n} */\r\n\r\n@charset \"UTF-8\";\r\n/*Обнуление*/\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 0;\r\n}\r\n\r\n*,\r\n*:before,\r\n*:after {\r\n  -moz-box-sizing: border-box;\r\n  -webkit-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n}\r\n\r\n:focus,\r\n:active {\r\n  outline: none;\r\n}\r\n\r\na:focus,\r\na:active {\r\n  outline: none;\r\n}\r\n\r\nnav,\r\nfooter,\r\nheader,\r\naside {\r\n  display: block;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  line-height: 1;\r\n  font-size: 14px;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea {\r\n  font-family: inherit;\r\n}\r\n\r\ninput::-ms-clear {\r\n  display: none;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n}\r\n\r\nbutton::-moz-focus-inner {\r\n  padding: 0;\r\n  border: 0;\r\n}\r\n\r\na,\r\na:visited {\r\n  text-decoration: none;\r\n}\r\n\r\na:hover {\r\n  text-decoration: none;\r\n}\r\n\r\nul li {\r\n  list-style: none;\r\n}\r\n\r\nimg {\r\n  vertical-align: top;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-size: inherit;\r\n  font-weight: 400;\r\n}\r\n\r\nbody {\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.wrapper {\r\n  min-height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n/* \r\n[class*='__container'] {\r\n  max-width: 1200px;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n} */\r\n\r\n.keyboard__container {\r\n  max-width: 1200px;\r\n  height: 100%;\r\n  margin: 0px auto;\r\n  padding: 0 15px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.title {\r\n  font-size: 3rem;\r\n  padding: 20px;\r\n}\r\n\r\n.keyboard__output {\r\n  width: 90%;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  border-radius: 10px;\r\n  font-size: 1.2rem;\r\n  padding: 15px;\r\n  resize: none;\r\n}\r\n\r\n.keyboard__keys {\r\n  margin-top: 20px;\r\n  padding: 20px;\r\n  border: 2px solid rgba(0, 0, 0, 0.8);\r\n  background: darkslategray;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.keyboard__row {\r\n  display: flex;\r\n}\r\n\r\n.key {\r\n  height: 45px;\r\n  width: 45px;\r\n  border: 1px solid rgb(151, 12, 12);\r\n  border-radius: 4px;\r\n  margin: 5px;\r\n  cursor: pointer;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 1.2rem;\r\n  font-weight: bold;\r\n  color: white;\r\n  background: rgba(26, 23, 23, 0.9);\r\n}\r\n.key:hover {\r\n  color: rgba(0, 0, 0, 0.9);\r\n  background: rgba(255, 255, 255, 0.9);\r\n  transition: all 0.5s ease-out;\r\n}\r\n.key.active {\r\n  background: rgb(0, 255, 0);\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\n.key__wide {\r\n  width: 100px;\r\n}\r\n\r\n.key__extra-wide {\r\n  width: 375px;\r\n}\r\n\r\n.keyboard__description {\r\n  margin-top: 20px;\r\n}\r\n.keyboard__description p {\r\n  padding: 10px 0;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,6 +528,233 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/assets/utils/keysLayout.js":
+/*!****************************************!*\
+  !*** ./src/assets/utils/keysLayout.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const keysLayout = [
+  { code: 'Backquote', eng: '`', ru: 'ё', newRow: true },
+  { code: 'Digit1', eng: '1' },
+  { code: 'Digit2', eng: '2' },
+  { code: 'Digit3', eng: '3' },
+  { code: 'Digit4', eng: '4' },
+  { code: 'Digit5', eng: '5' },
+  { code: 'Digit6', eng: '6' },
+  { code: 'Digit7', eng: '7' },
+  { code: 'Digit8', eng: '8' },
+  { code: 'Digit9', eng: '9' },
+  { code: 'Digit0', eng: '0' },
+  { code: 'Minus', eng: '-' },
+  { code: 'Equal', eng: '=' },
+  { code: 'Backspace', eng: 'Backspace', service: true, wide: true },
+  { code: 'Tab', eng: 'Tab', service: true, newRow: true },
+  { code: 'KeyQ', eng: 'q', ru: 'й' },
+  { code: 'KeyW', eng: 'w', ru: 'ц' },
+  { code: 'KeyE', eng: 'e', ru: 'у' },
+  { code: 'KeyR', eng: 'r', ru: 'к' },
+  { code: 'KeyT', eng: 't', ru: 'е' },
+  { code: 'KeyY', eng: 'y', ru: 'н' },
+  { code: 'KeyU', eng: 'u', ru: 'г' },
+  { code: 'KeyI', eng: 'i', ru: 'ш' },
+  { code: 'KeyO', eng: 'o', ru: 'щ' },
+  { code: 'KeyP', eng: 'p', ru: 'з' },
+  { code: 'BracketLeft', eng: '[', ru: 'х' },
+  { code: 'BracketRight', eng: ']', ru: 'ъ' },
+  { code: 'Backslash', eng: '\\' },
+  { code: 'Delete', eng: 'Del', service: true },
+  { code: 'CapsLock', eng: 'CapsLk', service: true, wide: true, newRow: true },
+  { code: 'KeyA', eng: 'a', ru: 'ф' },
+  { code: 'KeyS', eng: 's', ru: 'ы' },
+  { code: 'KeyD', eng: 'd', ru: 'в' },
+  { code: 'KeyF', eng: 'f', ru: 'а' },
+  { code: 'KeyG', eng: 'g', ru: 'п' },
+  { code: 'KeyH', eng: 'h', ru: 'р' },
+  { code: 'KeyJ', eng: 'j', ru: 'о' },
+  { code: 'KeyK', eng: 'k', ru: 'л' },
+  { code: 'KeyL', eng: 'l', ru: 'д' },
+  { code: 'Semicolon', eng: ';', ru: 'ж' },
+  { code: 'Quote', eng: "'", ru: 'э' },
+  { code: 'Enter', eng: 'Enter', service: true, wide: true },
+  { code: 'ShiftLeft', eng: 'Shift', service: true, wide: true, newRow: true },
+  { code: 'KeyZ', eng: 'z', ru: 'я' },
+  { code: 'KeyX', eng: 'x', ru: 'ч' },
+  { code: 'KeyC', eng: 'c', ru: 'с' },
+  { code: 'KeyV', eng: 'v', ru: 'м' },
+  { code: 'KeyB', eng: 'b', ru: 'и' },
+  { code: 'KeyN', eng: 'n', ru: 'т' },
+  { code: 'KeyM', eng: 'm', ru: 'ь' },
+  { code: 'Comma', eng: ',', ru: 'б' },
+  { code: 'Period', eng: '.', ru: 'ю' },
+  { code: 'Slash', eng: '/', ru: '.' },
+  { code: 'ArrowUp', eng: '▲' },
+  { code: 'ShiftRight', eng: 'Shift', service: true, wide: true },
+  { code: 'ControlLeft', eng: 'Ctrl', service: true, newRow: true },
+  { code: 'MetaLeft', eng: 'win', service: true },
+  { code: 'AltLeft', eng: 'Alt', service: true },
+  { code: 'Space', eng: ' ', extra__wide: true },
+  { code: 'AltRight', eng: 'alt' },
+  { code: 'ArrowLeft', eng: '◄' },
+  { code: 'ArrowDown', eng: '▼' },
+  { code: 'ArrowRight', eng: '►' },
+  { code: 'ControlRight', eng: 'Ctrl', service: true },
+];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (keysLayout);
+
+/***/ }),
+
+/***/ "./src/js/helpers/activeClasses.js":
+/*!*****************************************!*\
+  !*** ./src/js/helpers/activeClasses.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addActiveClassHandler": () => (/* binding */ addActiveClassHandler),
+/* harmony export */   "removeActiveClassHandler": () => (/* binding */ removeActiveClassHandler)
+/* harmony export */ });
+/* harmony import */ var _capitalizer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./capitalizer */ "./src/js/helpers/capitalizer.js");
+
+
+const addActiveClassHandler = (key) => {
+  if (key.id === 'CapsLock') {
+    key.classList.toggle('active');
+    (0,_capitalizer__WEBPACK_IMPORTED_MODULE_0__["default"])(key.classList.contains('active'));
+  } else key.classList.add('active');
+};
+
+const removeActiveClassHandler = (key) => {
+  if (key && key.id !== 'CapsLock') key.classList.remove('active');
+};
+
+
+
+/***/ }),
+
+/***/ "./src/js/helpers/capitalizer.js":
+/*!***************************************!*\
+  !*** ./src/js/helpers/capitalizer.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ capitalizeHandler)
+/* harmony export */ });
+function capitalizeHandler(capsLock = false) {
+  const letterKeys = document.querySelectorAll('.key__letter');
+  letterKeys.forEach((elem) => {
+    capsLock
+      ? (elem.innerHTML = elem.innerHTML.toUpperCase())
+      : (elem.innerHTML = elem.innerHTML.toLowerCase());
+  });
+}
+
+
+/***/ }),
+
+/***/ "./src/js/helpers/translator.js":
+/*!**************************************!*\
+  !*** ./src/js/helpers/translator.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ changeLanguageHandler)
+/* harmony export */ });
+function changeLanguageHandler(layout, en = true) {
+  let ruKey;
+  const keys = document.querySelectorAll('.key');
+  keys.forEach((elem) => {
+    ruKey = layout.find((item) => item.code === elem.id);
+    if (ruKey.ru) {
+      en ? (elem.innerHTML = ruKey.eng) : (elem.innerHTML = ruKey.ru);
+    }
+  });
+}
+
+/***/ }),
+
+/***/ "./src/js/keyboard.js":
+/*!****************************!*\
+  !*** ./src/js/keyboard.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ keyboardLayoutRender)
+/* harmony export */ });
+/* harmony import */ var _keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./keys */ "./src/js/keys.js");
+
+
+
+function keyboardLayoutRender() {
+  document.body.innerHTML = `
+  <div class="wrapper">
+      <div class="keyboard keyboard__container">
+          <h1 class="title">Virtual Keyboard</h1>
+          <textarea name="textarea" id="textarea" class="keyboard__output" autofocus cols="30" rows="10"></textarea>
+          <div class="keyboard__keys">
+          </div>
+          <div class="keyboard__description">
+            <p>Press *Alt+Shift* for change language</p>
+            <p>Keyboard is created in Windows OS</p>              
+          </div>
+      </div>
+  </div>`;
+  (0,_keys__WEBPACK_IMPORTED_MODULE_0__["default"])();
+}
+
+/***/ }),
+
+/***/ "./src/js/keys.js":
+/*!************************!*\
+  !*** ./src/js/keys.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ keyboardRender)
+/* harmony export */ });
+/* harmony import */ var _assets_utils_keysLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/utils/keysLayout */ "./src/assets/utils/keysLayout.js");
+
+
+function keyboardRender() {
+  const keyboardKeys = document.querySelector('.keyboard__keys');
+
+  let keyboardRow = document.createElement('div');
+  _assets_utils_keysLayout__WEBPACK_IMPORTED_MODULE_0__["default"].forEach((key) => {
+    if (key.newRow) {
+      keyboardRow = document.createElement('div');
+      keyboardRow.classList.add('keyboard__row');
+      keyboardKeys.append(keyboardRow);
+    }
+
+    const keyElement = document.createElement('div');
+
+    keyElement.className = 'keyboard__keys_key key';
+    if (key.wide) keyElement.classList.add('key__wide');
+    if (key.extra__wide) keyElement.classList.add('key__extra-wide');
+    if (key.code.indexOf('Key') !== -1) keyElement.classList.add('key__letter');
+    //
+    if (key.service) keyElement.classList.add('key__service');
+    keyElement.setAttribute('id', key.code);
+    keyElement.innerHTML = key.eng;
+    keyboardRow.append(keyElement);
+  });
+}
+
 /***/ })
 
 /******/ 	});
@@ -606,211 +833,98 @@ var __webpack_exports__ = {};
   \*************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/style.css */ "./src/styles/style.css");
+/* harmony import */ var _keyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./keyboard */ "./src/js/keyboard.js");
+/* harmony import */ var _assets_utils_keysLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/utils/keysLayout */ "./src/assets/utils/keysLayout.js");
+/* harmony import */ var _helpers_translator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helpers/translator */ "./src/js/helpers/translator.js");
+/* harmony import */ var _helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./helpers/activeClasses */ "./src/js/helpers/activeClasses.js");
 
 
-window.addEventListener('DOMContentLoaded', alert('Здравствуйте!\nПрошу, уделите минуту внимания этому сообщению. Уважаемый проверяющий, если Вас не затруднит, пожалуйста, вернитесь к проверке моей работы в среду. Так сложилось, что в пятницу ушёл навсегда член моей семьи и я была несколько дезориентирована для того, чтобы заниматься заданием. Я не могу обещать, что смогу довести работу до конца, но всё же прошу о такой отсрочке. Если же такой возможности у Вас нет, я всё понимаю. Заранее благодарна и успехов Вам в собственной учёбе!')
-  );
 
-const Keyboard = {
-  elements: {
-    main: null,
-    keysContainer: null,
-    keys: [],
-  },
 
-  eventsHandlers: {
-    oninput: null,
-    onclose: null,
-  },
 
-  properties: {
-    value: '',
-    capsLock: false,
-  },
 
-  init() {
-    const container = document.querySelector('.container');
-    console.log(container);
-    //Создаём контейнеры для клавиатуры
-    this.elements.main = document.createElement('div');
-    this.elements.keysContainer = document.createElement('div');
+let langEn = true;
 
-    //Задаём им классы
-    this.elements.main.classList.add('keyboard');
-    this.elements.keysContainer.classList.add('keyboard__keys');
+(0,_keyboard__WEBPACK_IMPORTED_MODULE_1__["default"])();
 
-    //Добавляем созданные элементы в DOM
-    this.elements.main.append(this.elements.keysContainer);
-    container.append(this.elements.main);
-    this.elements.keysContainer.append(this._createKeys());
-  },
+if (localStorage.getItem('lang') === 'ru') {
+  langEn = false;
+  (0,_helpers_translator__WEBPACK_IMPORTED_MODULE_3__["default"])(_assets_utils_keysLayout__WEBPACK_IMPORTED_MODULE_2__["default"], langEn);
+}
 
-  _createKeys() {
-    const fragment = document.createDocumentFragment();
-    const keyLayout = [
-      '`',
-      '1',
-      '2',
-      '3',
-      '4',
-      '5',
-      '6',
-      '7',
-      '8',
-      '9',
-      '0',
-      '-',
-      '=',
-      'Backspace',
-      'Tab',
-      'q',
-      'w',
-      'e',
-      'r',
-      't',
-      'y',
-      'u',
-      'i',
-      'o',
-      'p',
-      '[',
-      ']',
-      '\\',
-      'Del',
-      'CapsLk ⥮',
-      'a',
-      's',
-      'd',
-      'f',
-      'g',
-      'h',
-      'j',
-      'k',
-      'l',
-      ';',
-      "'",
-      'Enter',
-      'L-Shift',
-      'z',
-      'x',
-      'c',
-      'v',
-      'b',
-      'n',
-      'm',
-      ',',
-      '.',
-      '/',
-      '?',
-      'ᐃ',
-      'R-Shift',
-      'Ctrl',
-      'Win',
-      'Alt',
-      'Space',
-      'Alt',
-      'ᐊ',
-      'ᐃ',
-      'ᐅ',
-      'Ctrl',
-    ];
+const textareaElement = document.querySelector('.keyboard__output');
 
-    //
-    keyLayout.forEach((key) => {
-      const keyElement = document.createElement('button');
-      const insertLineBreak =
-        ['Backspace', 'Del', 'Enter', 'R-Shift'].indexOf(key) !== -1;
+document.addEventListener('keydown', (e) => {
+  const key = document.querySelector(`#${e.code}`);
+  if (!key) return;
 
-      // Добавляем аттрибуты/классы кнопкам
-      keyElement.setAttribute('type', 'button');
-      keyElement.classList.add('keyboard__key');
+  textareaElement.focus();
+  (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.addActiveClassHandler)(key);
 
-      switch (key) {
-        case 'Backspace':
-          keyElement.classList.add('keyboard__key--wide');
-          keyElement.addEventListener('click', () => {
-            this.properties.value = this.properties.value.substring(
-              0,
-              this.properties.value.length - 1
-            );
-            this._triggerEvent('oninput');
-          });
-
-          break;
-
-        case 'Tab':
-          keyElement.classList.add('keyboard__key--wide');
-          keyElement.addEventListener('click', () => {
-            this.properties.value += '  ';
-            this._triggerEvent('oninput');
-          });
-
-          break;
-
-        case 'CapsLk':
-          keyElement.classList.add('keyboard__key--widely');
-          keyElement.addEventListener('click', () => {
-            this._toggleCapsLock();
-            keyElement.classList.toggle(
-              'keyboard__key--active',
-              this.properties.capsLock
-            );
-          });
-
-          break;
-
-        case 'Enter':
-          keyElement.classList.add('keyboard__key--widely');
-          keyElement.addEventListener('click', () => {
-            this.properties.value += '\n';
-            this._triggerEvent('oninput');
-          });
-
-          break;
-
-        case 'Space':
-          keyElement.classList.add('keyboard__key--extra-wide');
-          keyElement.addEventListener('click', () => {
-            this.properties.value += ' ';
-            this._triggerEvent('oninput');
-          });
-
-          break;
-
-        default:
-          keyElement.textContent = key.toLowerCase();
-
-          keyElement.addEventListener('click', () => {
-            this.properties.value += this.properties.capsLock
-              ? key.toUpperCase()
-              : key.toLowerCase();
-            this._triggerEvent('oninput');
-          });
-          break;
-      }
-      fragment.appendChild(keyElement);
-
-      if (insertLineBreak) {
-        fragment.append(document.createElement('br'));
-      }
-    });
-    return fragment;
-  },
-
-  _triggerEvent(handlerName) {
-    console.log('Event Triggered!Event Name:' + handlerName);
-  },
-  _toggleCapsLock() {
-    console.log('Caps Lock Toggled!');
-  },
-  open(initialValue, oninput, onclose) {},
-
-  close() {},
-};
-
-window.addEventListener('DOMContentLoaded', function () {
-  Keyboard.init();
+  if (key.id === 'Tab') e.preventDefault();
+  if (
+    ((e.code === 'ShiftLeft' || e.code === 'ShiftRight') &&
+      e.altKey) ||
+    ((e.code === 'AltLeft' || e.code === 'AltRight') && e.shiftKey)
+  ) {
+    langEn = !langEn;
+    langEn
+      ? localStorage.setItem('lang', 'en')
+      : localStorage.setItem('lang', 'ru');
+    (0,_helpers_translator__WEBPACK_IMPORTED_MODULE_3__["default"])(_assets_utils_keysLayout__WEBPACK_IMPORTED_MODULE_2__["default"], langEn);
+  }
 });
+
+document.addEventListener('keyup', (e) => {
+  const key = document.querySelector(`#${e.code}`);
+  (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.removeActiveClassHandler)(key);
+});
+
+document
+  .querySelector('.keyboard__keys')
+  .addEventListener('mousedown', (e) => {
+    const key = e.target;
+    if (key.closest('.key')) {
+      (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.addActiveClassHandler)(key);
+      if (!key.classList.contains('key__service'))
+        textareaElement.value += key.innerHTML;
+      else {
+        switch (key.id) {
+          case 'Enter':
+            textareaElement.value += `\n`;
+            break;
+          case 'Backspace':
+            textareaElement.value = textareaElement.value.slice(
+              0,
+              textareaElement.value.length - 1
+            );
+            break;
+          case 'Delete':
+            if (textareaElement.value.length > textareaElement.selectionStart) {
+              textareaElement.value =
+                textareaElement.value.slice(
+                  0,
+                  textareaElement.selectionStart - 1
+                ) +
+                textareaElement.value.slice(
+                  textareaElement.selectionStart,
+                  textareaElement.length
+                );
+            }
+            textareaElement.focus();
+            break;
+        }
+      }
+    }
+  });
+
+document
+  .querySelector('.keyboard__keys')
+  .addEventListener('mouseup', (e) => {
+    document.querySelectorAll('.key').forEach((key) => {
+      (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.removeActiveClassHandler)(key);
+    });
+  });
 
 })();
 
