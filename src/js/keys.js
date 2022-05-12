@@ -1,4 +1,4 @@
-import keysLayout from "../assets/utils/keysLayout";
+import keysLayout from '../assets/utils/keysLayout';
 
 export default function keyboardRender() {
   const keyboardKeys = document.querySelector('.keyboard__keys');
@@ -16,7 +16,7 @@ export default function keyboardRender() {
     keyElement.className = 'keyboard__keys_key key';
     if (key.wide) keyElement.classList.add('key__wide');
     if (key.extra__wide) keyElement.classList.add('key__extra-wide');
-    if (key.code.indexOf('Key') !== -1) keyElement.classList.add('key__letter');
+    if (key.code.indexOf('Key') !== -1 || key.ru === 'ё' || key.ru === 'х' || key.ru === 'ъ' || key.ru === 'ж' || key.ru === 'б' || key.ru === 'э' || key.ru === 'ю') keyElement.classList.add('key__letter');
     //
     if (key.service) keyElement.classList.add('key__service');
     keyElement.setAttribute('id', key.code);

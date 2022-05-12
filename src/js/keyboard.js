@@ -1,5 +1,4 @@
-import keyboardRender from "./keys";
-
+import keyboardRender from './keys';
 
 export default function keyboardLayoutRender() {
   document.body.innerHTML = `

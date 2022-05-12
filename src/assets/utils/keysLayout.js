@@ -1,5 +1,7 @@
 const keysLayout = [
-  { code: 'Backquote', eng: '`', ru: 'ё', newRow: true },
+  {
+    code: 'Backquote', eng: '`', ru: 'ё', newRow: true,
+  },
   { code: 'Digit1', eng: '1' },
   { code: 'Digit2', eng: '2' },
   { code: 'Digit3', eng: '3' },
@@ -12,8 +14,12 @@ const keysLayout = [
   { code: 'Digit0', eng: '0' },
   { code: 'Minus', eng: '-' },
   { code: 'Equal', eng: '=' },
-  { code: 'Backspace', eng: 'Backspace', service: true, wide: true },
-  { code: 'Tab', eng: 'Tab', service: true, newRow: true },
+  {
+    code: 'Backspace', eng: 'Backspace', service: true, wide: true,
+  },
+  {
+    code: 'Tab', eng: 'Tab', service: true, newRow: true,
+  },
   { code: 'KeyQ', eng: 'q', ru: 'й' },
   { code: 'KeyW', eng: 'w', ru: 'ц' },
   { code: 'KeyE', eng: 'e', ru: 'у' },
@@ -28,7 +34,9 @@ const keysLayout = [
   { code: 'BracketRight', eng: ']', ru: 'ъ' },
   { code: 'Backslash', eng: '\\' },
   { code: 'Delete', eng: 'Del', service: true },
-  { code: 'CapsLock', eng: 'CapsLk', service: true, wide: true, newRow: true },
+  {
+    code: 'CapsLock', eng: 'CapsLk', service: true, wide: true, newRow: true,
+  },
   { code: 'KeyA', eng: 'a', ru: 'ф' },
   { code: 'KeyS', eng: 's', ru: 'ы' },
   { code: 'KeyD', eng: 'd', ru: 'в' },
@@ -40,8 +48,12 @@ const keysLayout = [
   { code: 'KeyL', eng: 'l', ru: 'д' },
   { code: 'Semicolon', eng: ';', ru: 'ж' },
   { code: 'Quote', eng: "'", ru: 'э' },
-  { code: 'Enter', eng: 'Enter', service: true, wide: true },
-  { code: 'ShiftLeft', eng: 'Shift', service: true, wide: true, newRow: true },
+  {
+    code: 'Enter', eng: 'Enter', service: true, wide: true,
+  },
+  {
+    code: 'ShiftLeft', eng: 'Shift', service: true, wide: true, newRow: true,
+  },
   { code: 'KeyZ', eng: 'z', ru: 'я' },
   { code: 'KeyX', eng: 'x', ru: 'ч' },
   { code: 'KeyC', eng: 'c', ru: 'с' },
@@ -53,8 +65,12 @@ const keysLayout = [
   { code: 'Period', eng: '.', ru: 'ю' },
   { code: 'Slash', eng: '/', ru: '.' },
   { code: 'ArrowUp', eng: '▲' },
-  { code: 'ShiftRight', eng: 'Shift', service: true, wide: true },
-  { code: 'ControlLeft', eng: 'Ctrl', service: true, newRow: true },
+  {
+    code: 'ShiftRight', eng: 'Shift', service: true, wide: true,
+  },
+  {
+    code: 'ControlLeft', eng: 'Ctrl', service: true, newRow: true,
+  },
   { code: 'MetaLeft', eng: 'win', service: true },
   { code: 'AltLeft', eng: 'Alt', service: true },
   { code: 'Space', eng: ' ', extra__wide: true },

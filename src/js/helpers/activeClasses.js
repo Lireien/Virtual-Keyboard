@@ -1,4 +1,4 @@
-import capitalizeHandler from "./capitalizer";
+import capitalizeHandler from './capitalizer';
 
 const addActiveClassHandler = (key) => {
   if (key.id === 'CapsLock') {

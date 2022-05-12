@@ -584,7 +584,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 const keysLayout = [
-  { code: 'Backquote', eng: '`', ru: 'ё', newRow: true },
+  {
+    code: 'Backquote', eng: '`', ru: 'ё', newRow: true,
+  },
   { code: 'Digit1', eng: '1' },
   { code: 'Digit2', eng: '2' },
   { code: 'Digit3', eng: '3' },
@@ -597,8 +599,12 @@ const keysLayout = [
   { code: 'Digit0', eng: '0' },
   { code: 'Minus', eng: '-' },
   { code: 'Equal', eng: '=' },
-  { code: 'Backspace', eng: 'Backspace', service: true, wide: true },
-  { code: 'Tab', eng: 'Tab', service: true, newRow: true },
+  {
+    code: 'Backspace', eng: 'Backspace', service: true, wide: true,
+  },
+  {
+    code: 'Tab', eng: 'Tab', service: true, newRow: true,
+  },
   { code: 'KeyQ', eng: 'q', ru: 'й' },
   { code: 'KeyW', eng: 'w', ru: 'ц' },
   { code: 'KeyE', eng: 'e', ru: 'у' },
@@ -613,7 +619,9 @@ const keysLayout = [
   { code: 'BracketRight', eng: ']', ru: 'ъ' },
   { code: 'Backslash', eng: '\\' },
   { code: 'Delete', eng: 'Del', service: true },
-  { code: 'CapsLock', eng: 'CapsLk', service: true, wide: true, newRow: true },
+  {
+    code: 'CapsLock', eng: 'CapsLk', service: true, wide: true, newRow: true,
+  },
   { code: 'KeyA', eng: 'a', ru: 'ф' },
   { code: 'KeyS', eng: 's', ru: 'ы' },
   { code: 'KeyD', eng: 'd', ru: 'в' },
@@ -625,8 +633,12 @@ const keysLayout = [
   { code: 'KeyL', eng: 'l', ru: 'д' },
   { code: 'Semicolon', eng: ';', ru: 'ж' },
   { code: 'Quote', eng: "'", ru: 'э' },
-  { code: 'Enter', eng: 'Enter', service: true, wide: true },
-  { code: 'ShiftLeft', eng: 'Shift', service: true, wide: true, newRow: true },
+  {
+    code: 'Enter', eng: 'Enter', service: true, wide: true,
+  },
+  {
+    code: 'ShiftLeft', eng: 'Shift', service: true, wide: true, newRow: true,
+  },
   { code: 'KeyZ', eng: 'z', ru: 'я' },
   { code: 'KeyX', eng: 'x', ru: 'ч' },
   { code: 'KeyC', eng: 'c', ru: 'с' },
@@ -638,8 +650,12 @@ const keysLayout = [
   { code: 'Period', eng: '.', ru: 'ю' },
   { code: 'Slash', eng: '/', ru: '.' },
   { code: 'ArrowUp', eng: '▲' },
-  { code: 'ShiftRight', eng: 'Shift', service: true, wide: true },
-  { code: 'ControlLeft', eng: 'Ctrl', service: true, newRow: true },
+  {
+    code: 'ShiftRight', eng: 'Shift', service: true, wide: true,
+  },
+  {
+    code: 'ControlLeft', eng: 'Ctrl', service: true, newRow: true,
+  },
   { code: 'MetaLeft', eng: 'win', service: true },
   { code: 'AltLeft', eng: 'Alt', service: true },
   { code: 'Space', eng: ' ', extra__wide: true },
@@ -696,8 +712,12 @@ __webpack_require__.r(__webpack_exports__);
 function capitalizeHandler(capsLock = false) {
   const letterKeys = document.querySelectorAll('.key__letter');
   letterKeys.forEach((elem) => {
+    /* eslint no-unused-expressions: ["error", { "allowTernary": true }] */
     capsLock
-      ? (elem.innerHTML = elem.innerHTML.toUpperCase())
+      // eslint-disable-next-line operator-linebreak
+      ? // eslint-disable-next-line no-param-reassign
+      (elem.innerHTML = elem.innerHTML.toUpperCase())
+      // eslint-disable-next-line no-param-reassign
       : (elem.innerHTML = elem.innerHTML.toLowerCase());
   });
 }
@@ -721,10 +741,13 @@ function changeLanguageHandler(layout, en = true) {
   keys.forEach((elem) => {
     ruKey = layout.find((item) => item.code === elem.id);
     if (ruKey.ru) {
+      /* eslint no-unused-expressions: ["error", { "allowTernary": true }] */
+      // eslint-disable-next-line no-param-reassign
       en ? (elem.innerHTML = ruKey.eng) : (elem.innerHTML = ruKey.ru);
     }
   });
 }
+
 
 /***/ }),
 
@@ -739,7 +762,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ keyboardLayoutRender)
 /* harmony export */ });
 /* harmony import */ var _keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./keys */ "./src/js/keys.js");
-
 
 
 function keyboardLayoutRender() {
@@ -758,6 +780,7 @@ function keyboardLayoutRender() {
   </div>`;
   (0,_keys__WEBPACK_IMPORTED_MODULE_0__["default"])();
 }
+
 
 /***/ }),
 
@@ -790,7 +813,7 @@ function keyboardRender() {
     keyElement.className = 'keyboard__keys_key key';
     if (key.wide) keyElement.classList.add('key__wide');
     if (key.extra__wide) keyElement.classList.add('key__extra-wide');
-    if (key.code.indexOf('Key') !== -1) keyElement.classList.add('key__letter');
+    if (key.code.indexOf('Key') !== -1 || key.ru === 'ё' || key.ru === 'х' || key.ru === 'ъ' || key.ru === 'ж' || key.ru === 'б' || key.ru === 'э' || key.ru === 'ю') keyElement.classList.add('key__letter');
     //
     if (key.service) keyElement.classList.add('key__service');
     keyElement.setAttribute('id', key.code);
@@ -798,6 +821,7 @@ function keyboardRender() {
     keyboardRow.append(keyElement);
   });
 }
+
 
 /***/ }),
 
@@ -978,11 +1002,11 @@ document.addEventListener('keydown', (e) => {
 
   if (key.id === 'Tab') e.preventDefault();
   if (
-    ((e.code === 'ShiftLeft' || e.code === 'ShiftRight') &&
-      e.altKey) ||
-    ((e.code === 'AltLeft' || e.code === 'AltRight') && e.shiftKey)
+    ((e.code === 'ShiftLeft' || e.code === 'ShiftRight') && e.altKey)
+    || ((e.code === 'AltLeft' || e.code === 'AltRight') && e.shiftKey)
   ) {
     langEn = !langEn;
+    /* eslint no-unused-expressions: ["error", { "allowTernary": true }] */
     langEn
       ? localStorage.setItem('lang', 'en')
       : localStorage.setItem('lang', 'ru');
@@ -995,51 +1019,49 @@ document.addEventListener('keyup', (e) => {
   (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.removeActiveClassHandler)(key);
 });
 
-document
-  .querySelector('.keyboard__keys')
-  .addEventListener('mousedown', (e) => {
-    const key = e.target;
-    if (key.closest('.key')) {
-      (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.addActiveClassHandler)(key);
-      if (!key.classList.contains('key__service'))
-        textareaElement.value += key.innerHTML;
-      else {
-        switch (key.id) {
-          case 'Enter':
-            textareaElement.value += `\n`;
-            break;
-          case 'Backspace':
+document.querySelector('.keyboard__keys').addEventListener('mousedown', (e) => {
+  const key = e.target;
+  if (key.closest('.key')) {
+    (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.addActiveClassHandler)(key);
+    if (!key.classList.contains('key__service')) {
+      textareaElement.value += key.innerHTML;
+    } else {
+      const lengthReduce = textareaElement.value.length - 1;
+      switch (key.id) {
+        case 'Enter':
+          textareaElement.value += '\n';
+          break;
+        case 'Backspace':
+          textareaElement.value = textareaElement.value.substring(
+            0,
+            lengthReduce,
+          );
+          break;
+        case 'Delete':
+          if (textareaElement.value.length > textareaElement.selectionStart) {
             textareaElement.value = textareaElement.value.slice(
               0,
-              textareaElement.value.length - 1
+              textareaElement.selectionStart - 1,
+            )
+            + textareaElement.value.slice(
+              textareaElement.selectionStart,
+              textareaElement.length,
             );
-            break;
-          case 'Delete':
-            if (textareaElement.value.length > textareaElement.selectionStart) {
-              textareaElement.value =
-                textareaElement.value.slice(
-                  0,
-                  textareaElement.selectionStart - 1
-                ) +
-                textareaElement.value.slice(
-                  textareaElement.selectionStart,
-                  textareaElement.length
-                );
-            }
-            textareaElement.focus();
-            break;
-        }
+          }
+          textareaElement.focus();
+          break;
+        default:
+          break;
       }
     }
-  });
+  }
+});
 
-document
-  .querySelector('.keyboard__keys')
-  .addEventListener('mouseup', (e) => {
-    document.querySelectorAll('.key').forEach((key) => {
-      (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.removeActiveClassHandler)(key);
-    });
+document.querySelector('.keyboard__keys').addEventListener('mouseup', () => {
+  document.querySelectorAll('.key').forEach((key) => {
+    (0,_helpers_activeClasses__WEBPACK_IMPORTED_MODULE_4__.removeActiveClassHandler)(key);
   });
+});
 
 })();
 
