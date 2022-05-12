@@ -1050,6 +1050,9 @@ document.querySelector('.keyboard__keys').addEventListener('mousedown', (e) => {
           }
           textareaElement.focus();
           break;
+        case 'Tab':
+          textareaElement.value += '  ';
+          break;
         default:
           break;
       }
