@@ -51,32 +51,19 @@ document.querySelector('.keyboard__keys').addEventListener('mousedown', (e) => {
     if (!key.classList.contains('key__service')) {
       textareaElement.value += key.innerHTML;
     } else {
-      const lengthReduce = textareaElement.value.length - 1;
       switch (key.id) {
         case 'Enter':
-          textareaElement.value += '\n';
+          textareaElement.setRangeText('\n', textareaElement.selectionStart, textareaElement.selectionEnd, 'end');
           break;
         case 'Backspace':
-          textareaElement.value = textareaElement.value.substring(
-            0,
-            lengthReduce,
-          );
+          textareaElement.setRangeText('', textareaElement.selectionStart > 0 ? textareaElement.selectionStart - 1 : 0, textareaElement.selectionEnd, 'end');
           break;
         case 'Delete':
-          if (textareaElement.value.length > textareaElement.selectionStart) {
-            textareaElement.value = textareaElement.value.slice(
-              0,
-              textareaElement.selectionStart - 1,
-            )
-            + textareaElement.value.slice(
-              textareaElement.selectionStart,
-              textareaElement.length,
-            );
-          }
+          textareaElement.setRangeText('', textareaElement.selectionStart, textareaElement.selectionEnd + 1, 'end');
           textareaElement.focus();
           break;
         case 'Tab':
-          textareaElement.value += '  ';
+          textareaElement.setRangeText('\t', textareaElement.selectionStart, textareaElement.selectionEnd, 'end');
           break;
         default:
           break;

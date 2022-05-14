@@ -10,4 +10,5 @@ const addActiveClassHandler = (key) => {
 const removeActiveClassHandler = (key) => {
   if (key && key.id !== 'CapsLock') key.classList.remove('active');
 };
+
 export { addActiveClassHandler, removeActiveClassHandler };
